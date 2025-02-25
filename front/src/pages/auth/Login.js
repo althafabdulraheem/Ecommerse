@@ -12,7 +12,7 @@ export default function Login() {
                   <AuthBanner/>
                   <Form/>
                   <AuthButton/>
-                  <p class="text-muted mt-2 " style={{float:'right'}}>Register</p>
+                  <p class="text-muted mt-2 " style={{float:'right'}}>Register Now!</p>
                 </div>
           
         </div>
