@@ -1,7 +1,9 @@
 import React from 'react';
+import {Login} from './pages'
+
 const App=()=>{
   return (<>
-      <h1>Hie</h1>
+        <Login/>
   </>)
 }
 
