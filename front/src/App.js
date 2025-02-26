@@ -1,9 +1,9 @@
 import React from 'react';
-import {Login} from './pages'
+import Router from './utils/Router';
 
 const App=()=>{
   return (<>
-        <Login/>
+        <Router/>
   </>)
 }
 

@@ -41,3 +41,50 @@ code {
   font-size: 13px;
   color: grey;
 }
+
+.navbar-nav{
+  font-size: 17px;
+}
+
+.img-wrapper{
+  background-image: url('../public/assets/main.jpg');
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:17px;
+  background-color: #00000030;
+  background-blend-mode: overlay;
+
+}
+
+.img-wrapper h1,p{
+  color:white;
+ 
+}
+
+.btn-outline-success{
+
+  border-color: #ff9758!important;
+  color: #ff7532!important;
+ 
+}
+
+.btn-outline-success:hover{
+  background: #ff915142!important;
+}
+
+.card{
+ height: 320px !important;
+}
+
+.product-card img{
+  height: 100%;
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}

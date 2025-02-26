@@ -11,7 +11,7 @@ export default function Form() {
             return(
                  <div className="row mt-2">
                     <div className="form-group">
-                        <input className="form-control auth-field" type={value} name={value}  placeholder={`enter your ${value}...`} autocomplete="off"/>
+                        <input className="form-control auth-field" type={value} name={value}  placeholder={`enter your ${value}...`} autoComplete="off"/>
                     </div>
                 </div>
              )
