@@ -28,8 +28,14 @@ export default function Products() {
                         <div className="card-body">
                             {value.title}
                         </div>
-                        <div className="card-footer">
-    
+                        <div className="card-footer d-flex justify-content-between align-items-center">
+                            <div className="price">
+                                ${value.price}
+                            </div>
+                            <div className="buttons">
+                                <button className="btn btn-danger">Add to cart</button>
+                               
+                            </div>
                         </div>
                     </div>
                 </div>
