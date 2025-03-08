@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useSelector} from "react-redux";
 const Navbar = () => {
+  const cart_items=useSelector((state)=>state.cartCounter)
+  console.log(cart_items)
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light py-3">
@@ -50,7 +53,7 @@ const Navbar = () => {
           </ul>
           
             <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Cart
+              Cart ({cart_items.items.length})
             </button>
          
         </div>

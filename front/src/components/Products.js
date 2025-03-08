@@ -1,9 +1,11 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios';
-
+import { useDispatch } from 'react-redux';
+import { addItem } from '../redux/cart';
 
 
 export default function Products() {
+    const disptch=useDispatch();
     const [data,setData]=useState([])
     useEffect(()=>{
        const getProducts=async()=>{
@@ -33,7 +35,7 @@ export default function Products() {
                                 ${value.price}
                             </div>
                             <div className="buttons">
-                                <button className="btn btn-danger">Add to cart</button>
+                                <button className="btn btn-danger" onClick={()=>{disptch(addItem(value))}}>Add to cart</button>
                                
                             </div>
                         </div>
