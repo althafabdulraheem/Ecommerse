@@ -88,3 +88,8 @@ code {
   max-height: 200px;
   object-fit: contain;
 }
+
+.btn-success{
+  background:#ff7532!important;
+  border-color: #ff9758!important;
+}
