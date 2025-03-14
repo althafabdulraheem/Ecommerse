@@ -5,10 +5,10 @@ import Products from '../components/Products';
 
 export default function Landing() {
   return (
-    <div>
+    <>
         <Navbar/>
         <MainBanner/>
         <Products/>
-    </div>
+    </>
   )
 }

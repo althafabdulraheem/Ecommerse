@@ -24,10 +24,10 @@ export default function Products() {
                 return(
                     <div className="col-12 col-md-4 mt-4" key={id}>
                     <div className="card product-card">
-                        <div className="card-header">
+                        <div className="card-header bg-white">
                             <img src={value.image} alt="" />
                         </div>
-                        <div className="card-body">
+                        <div className="card-body poduct-title">
                             {value.title}
                         </div>
                         <div className="card-footer d-flex justify-content-between align-items-center">

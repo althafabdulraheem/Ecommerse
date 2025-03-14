@@ -93,3 +93,27 @@ code {
   background:#ff7532!important;
   border-color: #ff9758!important;
 }
+
+.btn-cart-op-wrapper{
+  background: #f1f1f1;
+    align-items: center;
+    padding: 0.2em;
+    font-weight: bolder;
+    box-shadow: 2px 4px 13px -2px #cec9c9;
+    border-radius: 5px;
+}
+
+.poduct-title{
+  color: #f75a1d !important;
+}
+
+.btn-cart-op-wrapper p{
+  margin: 0;
+  font-size: 1.3em;
+  color: #f75a1d !important;
+
+}
+
+.left{
+  margin-left: 4px;
+}
