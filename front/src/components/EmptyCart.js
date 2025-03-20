@@ -12,7 +12,7 @@ export default function EmptyCart() {
     />
     <p className="text-dark text-center fw-bold">Cart Is Empty</p>
     <div className="d-flex justify-content-center">
-      <Link to="/landing" className="btn btn-success">Go To Shopping</Link>
+      <Link to="/" className="btn btn-success">Go To Shopping</Link>
 
     </div>
     </div>

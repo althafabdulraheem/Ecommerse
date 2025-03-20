@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../redux/cart';
+import { Link } from 'react-router-dom';
 
 
 export default function Products() {
@@ -27,8 +28,8 @@ export default function Products() {
                         <div className="card-header bg-white">
                             <img src={value.image} alt="" />
                         </div>
-                        <div className="card-body poduct-title">
-                            {value.title}
+                        <div className="card-body">
+                            <Link to={"product/"+value.id} className="poduct-title text-decoration-none">{value.title}</Link>
                         </div>
                         <div className="card-footer d-flex justify-content-between align-items-center">
                             <div className="price">
